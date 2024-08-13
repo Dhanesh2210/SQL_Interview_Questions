@@ -107,6 +107,7 @@ INSERT INTO sf_transactions (id, created_at, value, purchase_id) VALUES
 (92, '2019-12-31', 104037, 18);
 
 
+-- SOLUTION ->
 
 WITH cte AS 
 (SELECT FORMAT(created_at, 'yyyy-MM') AS ym,
